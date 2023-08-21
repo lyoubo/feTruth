@@ -1,0 +1,20 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.jsoup.helper.DataUtil::parseInputStream(java.io.InputStream, java.lang.String, java.lang.String, org.jsoup.parser.Parser):org.jsoup.nodes.Document 	 org.jsoup.helper.DataUtil.BomCharset
+Move Method	org.jsoup.helper.HttpConnection::connect(java.lang.String):org.jsoup.Connection 	 org.jsoup.Connection
+Move Method	org.jsoup.helper.HttpConnection::connect(java.net.URL):org.jsoup.Connection 	 org.jsoup.Connection
+Move Method	org.jsoup.helper.HttpConnection.Response::execute(org.jsoup.Connection.Request, org.jsoup.helper.HttpConnection.Response):org.jsoup.helper.HttpConnection.Response 	 org.jsoup.helper.HttpConnection.Request
+Move Method	org.jsoup.nodes.Attribute::shouldCollapseAttribute(java.lang.String, java.lang.String, org.jsoup.nodes.Document.OutputSettings):boolean 	 org.jsoup.nodes.Document.OutputSettings.Syntax
+Move Method	org.jsoup.nodes.Document::ensureMetaCharsetElement():void 	 org.jsoup.nodes.Document.OutputSettings.Syntax
+Move Method	org.jsoup.nodes.Entities.EscapeMode::codepointForName(java.lang.String):int 	 org.jsoup.nodes.Entities
+Move Method	org.jsoup.nodes.Entities.EscapeMode::nameForCodepoint(int):java.lang.String 	 org.jsoup.nodes.Entities
+Move Method	org.jsoup.nodes.Entities::escape(java.lang.Appendable, java.lang.String, org.jsoup.nodes.Document.OutputSettings, boolean, boolean, boolean):void 	 org.jsoup.nodes.Entities.EscapeMode
+Move Method	org.jsoup.nodes.FormElement::submit():org.jsoup.Connection 	 org.jsoup.Connection.Method
+Move Method	org.jsoup.parser.CharacterReader::consumeData():java.lang.String 	 org.jsoup.parser.TokeniserState
+Move Method	org.jsoup.parser.CharacterReader::consumeTagName():java.lang.String 	 org.jsoup.parser.TokeniserState
+Move Method	org.jsoup.parser.Tag::valueOf(java.lang.String):org.jsoup.parser.Tag 	 org.jsoup.parser.ParseSettings
+Move Method	org.jsoup.parser.Tokeniser::emit(org.jsoup.parser.Token):void 	 org.jsoup.parser.Token.Tag
+Move Method	org.jsoup.parser.Tokeniser::consumeCharacterReference(java.lang.Character, boolean):int[] 	 org.jsoup.parser.CharacterReader
+Move Method	org.jsoup.parser.TreeBuilder::runParser():void 	 org.jsoup.parser.Token.TokenType
+Move Method	org.jsoup.parser.TreeBuilder::processStartTag(java.lang.String):boolean 	 org.jsoup.parser.Token.StartTag
+Move Method	org.jsoup.parser.TreeBuilder::processStartTag(java.lang.String, org.jsoup.nodes.Attributes):boolean 	 org.jsoup.parser.Token.StartTag
+Move Method	org.jsoup.safety.Whitelist::testValidProtocol(org.jsoup.nodes.Element, org.jsoup.nodes.Attribute, java.util.Set<org.jsoup.safety.Whitelist.Protocol>):boolean 	 org.jsoup.internal.Normalizer

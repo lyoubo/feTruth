@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apache.commons.compress.archivers.zip.ZipFile::setNameAndCommentFromExtraFields(ZipArchiveEntry, NameAndComment):void	org.apache.commons.compress.archivers.zip.ZipArchiveEntry

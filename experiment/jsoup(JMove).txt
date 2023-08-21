@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.jsoup.parser.Tokeniser::consumeCharacterReference(Character, boolean):int[]	org.jsoup.parser.CharacterReader
+Move Method	org.jsoup.parser.HtmlTreeBuilder::insertNode(Node):void	org.jsoup.nodes.FormElement
+Move Method	org.jsoup.parser.Tokeniser::eofError(TokeniserState):void	org.jsoup.parser.TokeniserState
+Move Method	org.jsoup.safety.Whitelist::testValidProtocol(Element, Attribute, Set<Protocol>):boolean	org.jsoup.nodes.Attribute
+Move Method	org.jsoup.parser.XmlTreeBuilder::popStackToClose(Token.EndTag):void	org.jsoup.parser.ParseSettings

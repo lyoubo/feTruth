@@ -1,0 +1,15 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apache.commons.compress.archivers.zip.AsiExtraField::getMode(int):int 	 org.apache.commons.compress.archivers.zip.UnixStat
+Move Method	org.apache.commons.compress.archivers.zip.ExtraFieldUtils::parse(byte[], boolean):org.apache.commons.compress.archivers.zip.ZipExtraField[] 	 org.apache.commons.compress.archivers.zip.ZipExtraField
+Move Method	org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream::writeLocalFileHeader(org.apache.commons.compress.archivers.zip.ZipArchiveEntry):void 	 org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.UnicodeExtraFieldPolicy
+Move Method	org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream::writeCentralFileHeader(org.apache.commons.compress.archivers.zip.ZipArchiveEntry):void 	 org.apache.commons.compress.archivers.zip.ZipEncodingHelper
+Move Method	org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream::writeCentralDirectoryEnd():void 	 org.apache.commons.compress.archivers.zip.ZipEncoding
+Move Method	org.apache.commons.compress.archivers.zip.ZipFile::resolveLocalFileHeaderData(java.util.Map):void 	 org.apache.commons.compress.archivers.zip.ZipFile.OffsetEntry
+Move Method	org.apache.commons.compress.archivers.zip.ZipFile::setNameAndCommentFromExtraFields(org.apache.commons.compress.archivers.zip.ZipArchiveEntry, org.apache.commons.compress.archivers.zip.ZipFile.NameAndComment):void 	 org.apache.commons.compress.archivers.zip.ZipFile.NameAndComment
+Move Method	org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream::getAndMoveToFrontDecode():void 	 org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data
+Move Method	org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream::getAndMoveToFrontDecode0(int):int 	 org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data
+Move Method	org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream::setupRandPartA():void 	 org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data
+Move Method	org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream::setupNoRandPartA():void 	 org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data
+Move Method	org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream::setupRandPartB():void 	 org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data
+Move Method	org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream::setupNoRandPartB():void 	 org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data
+Move Method	org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream::mainSort():void 	 org.apache.commons.compress.compressors.bzip2.BZip2Constants

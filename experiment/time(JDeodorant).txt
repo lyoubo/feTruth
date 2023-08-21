@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.joda.time.format.PeriodFormatterBuilder.FieldFormatter::isSupported(org.joda.time.PeriodType, int):boolean	org.joda.time.PeriodType	0/1	
+Move Method	org.joda.time.tz.DateTimeZoneBuilder.OfYear::setDayOfMonth(org.joda.time.Chronology, long):long	org.joda.time.Chronology	1/2	
+Move Method	org.joda.time.LocalTime.Property::addNoWrapToCopy(int):org.joda.time.LocalTime	org.joda.time.LocalTime	2/3	

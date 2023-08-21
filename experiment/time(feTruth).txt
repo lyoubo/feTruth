@@ -1,0 +1,9 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.joda.example.time.AgeCalculator.FieldSet::addTo(java.awt.Container):void 	 org.joda.example.time.AgeCalculator.FieldGroup
+Move Method	org.joda.time.chrono.IslamicChronology::getInstance(org.joda.time.DateTimeZone, org.joda.time.chrono.IslamicChronology.LeapYearPatternType):org.joda.time.chrono.IslamicChronology 	 org.joda.time.chrono.IslamicChronology.LeapYearPatternType
+Move Method	org.joda.time.chrono.IslamicChronology.LeapYearPatternType::readResolve():java.lang.Object 	 org.joda.time.chrono.IslamicChronology
+Move Method	org.joda.time.format.DateTimeFormatter::withZoneUTC():org.joda.time.format.DateTimeFormatter 	 org.joda.time.DateTimeZone
+Move Method	org.joda.time.format.PeriodFormatterBuilder.FieldFormatter::getFieldValue(org.joda.time.ReadablePeriod):long 	 org.joda.time.format.PeriodFormatterBuilder
+Move Method	org.joda.time.format.PeriodFormatterBuilder.FieldFormatter::isSupported(org.joda.time.PeriodType, int):boolean 	 org.joda.time.format.PeriodFormatterBuilder
+Move Method	org.joda.time.format.PeriodFormatterBuilder.FieldFormatter::setFieldValue(org.joda.time.ReadWritablePeriod, int, int):void 	 org.joda.time.format.PeriodFormatterBuilder
+Move Method	org.joda.time.tz.ZoneInfoCompiler.RuleSet::addRule(org.joda.time.tz.ZoneInfoCompiler.Rule):void 	 org.joda.time.tz.ZoneInfoCompiler.Rule
