@@ -54,8 +54,6 @@ def preprocess_name(sentence):
 def get_training_features(data):
     features = []
     for row in data:
-        if row['refactoring_id']:
-            continue
         source_class_name = row['source_class_name'].split('.')[-1]
         method_name = row['method_name']
         source_dist = row['source_dist']
