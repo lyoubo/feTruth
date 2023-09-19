@@ -1,0 +1,16 @@
+Refactoring Type	Source Method	Target Class
+Move Method     	org.jsoup.helper.DataUtil::mimeBoundary():java.lang.String 	 org.jsoup.internal.StringUtil
+Move Method	org.jsoup.helper.HttpConnection.Response::serialiseRequestUrl(org.jsoup.Connection.Request):void 	 org.jsoup.internal.StringUtil
+Move Method	org.jsoup.Jsoup::parse(java.io.File, java.lang.String, java.lang.String):org.jsoup.nodes.Document 	 org.jsoup.helper.DataUtil
+Move Method	org.jsoup.Jsoup::parse(java.io.File, java.lang.String):org.jsoup.nodes.Document 	 org.jsoup.helper.DataUtil
+Move Method	org.jsoup.Jsoup::parse(java.io.InputStream, java.lang.String, java.lang.String):org.jsoup.nodes.Document 	 org.jsoup.helper.DataUtil
+Move Method	org.jsoup.Jsoup::parse(java.io.InputStream, java.lang.String, java.lang.String, org.jsoup.parser.Parser):org.jsoup.nodes.Document 	 org.jsoup.helper.DataUtil
+Move Method	org.jsoup.Jsoup::parseBodyFragment(java.lang.String):org.jsoup.nodes.Document 	 org.jsoup.parser.Parser
+Move Method	org.jsoup.nodes.Attribute::html(java.lang.String, java.lang.String, java.lang.Appendable, org.jsoup.nodes.Document.OutputSettings):void 	 org.jsoup.nodes.Attributes
+Move Method	org.jsoup.nodes.Element::appendNormalisedText(java.lang.StringBuilder, org.jsoup.nodes.TextNode):void 	 org.jsoup.internal.StringUtil
+Move Method	org.jsoup.nodes.Entities::escape(java.lang.String, org.jsoup.nodes.Document.OutputSettings):java.lang.String 	 org.jsoup.internal.StringUtil
+Move Method	org.jsoup.nodes.Entities::escape(java.lang.Appendable, java.lang.String, org.jsoup.nodes.Document.OutputSettings, boolean, boolean, boolean):void 	 org.jsoup.internal.StringUtil
+Move Method	org.jsoup.parser.HtmlTreeBuilderState::handleRcData(org.jsoup.parser.Token.StartTag, org.jsoup.parser.HtmlTreeBuilder):void 	 org.jsoup.parser.TreeBuilder
+Move Method	org.jsoup.parser.Parser::parseBodyFragment(java.lang.String, java.lang.String):org.jsoup.nodes.Document 	 org.jsoup.nodes.Document
+Move Method	org.jsoup.parser.TokeniserState::readEndTag(org.jsoup.parser.Tokeniser, org.jsoup.parser.CharacterReader, org.jsoup.parser.TokeniserState, org.jsoup.parser.TokeniserState):void 	 org.jsoup.parser.CharacterReader
+Move Method	org.jsoup.parser.TokenQueue::unescape(java.lang.String):java.lang.String 	 org.jsoup.internal.StringUtil

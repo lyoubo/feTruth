@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.apache.commons.compress.archivers.zip.ZipFile::getUnicodeStringIfOriginalMatches(org.apache.commons.compress.archivers.zip.AbstractUnicodeExtraField, byte[]):java.lang.String	org.apache.commons.compress.archivers.zip.AbstractUnicodeExtraField	0/2	
-Move Method	org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream::writeOldAsciiEntry(org.apache.commons.compress.archivers.cpio.CpioArchiveEntry):void	org.apache.commons.compress.archivers.cpio.CpioArchiveEntry	2/10	
-Move Method	org.apache.commons.compress.archivers.ar.ArArchiveOutputStream::writeEntryHeader(org.apache.commons.compress.archivers.ar.ArArchiveEntry):long	org.apache.commons.compress.archivers.ar.ArArchiveEntry	2/6	
-Move Method	org.apache.commons.compress.archivers.zip.ZipFile::setNameAndCommentFromExtraFields(org.apache.commons.compress.archivers.zip.ZipArchiveEntry, org.apache.commons.compress.archivers.zip.ZipFile.NameAndComment):void	org.apache.commons.compress.archivers.zip.ZipArchiveEntry	2/4	

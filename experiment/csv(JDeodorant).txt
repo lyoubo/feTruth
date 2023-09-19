@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.apache.commons.csv.Lexer::isEndOfLine(int):boolean	org.apache.commons.csv.ExtendedBufferedReader	1/2	

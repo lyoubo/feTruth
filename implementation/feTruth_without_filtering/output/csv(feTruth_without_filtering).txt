@@ -1,2 +1,0 @@
-Refactoring Type	Source Method	Target Class
-Move Method	org.apache.commons.csv.Lexer::isEndOfFile(int):boolean 	 org.apache.commons.csv.ExtendedBufferedReader

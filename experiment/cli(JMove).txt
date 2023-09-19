@@ -1,3 +1,0 @@
-Refactoring Type	Source Method	Target Class
-Move Method	org.apache.commons.cli.HelpFormatter::renderOptions(StringBuffer, int, Options, int, int):StringBuffer	org.apache.commons.cli.Options
-Move Method	org.apache.commons.cli.HelpFormatter::printUsage(PrintWriter, int, String, Options):void	org.apache.commons.cli.Options

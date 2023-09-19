@@ -1,3 +1,0 @@
-Refactoring Type	Source Method	Target Class
-Move Method	org.joda.time.format.TestPeriodFormatParsing::testParseCustom1():void	org.joda.time.DateTimeZone
-Move Method	org.joda.time.YearMonthDay::toDateTime(TimeOfDay, DateTimeZone):DateTime	org.joda.time.TimeOfDay

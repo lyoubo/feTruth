@@ -1,4 +1,0 @@
-Refactoring Type	Source Method	Target Class
-Move Method	org.apache.commons.csv.CSVLexer::simpleTokenLexer(org.apache.commons.csv.Token, int):org.apache.commons.csv.Token 	 org.apache.commons.csv.Token
-Move Method	org.apache.commons.csv.CSVParser::getRecord():org.apache.commons.csv.CSVRecord 	 org.apache.commons.csv.Token.Type
-Move Method	org.apache.commons.csv.Lexer::isEndOfFile(int):boolean 	 org.apache.commons.csv.ExtendedBufferedReader
