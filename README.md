@@ -5,7 +5,7 @@
 - [How to run feTruth](#how-to-run-fetruth)
 - [Dataset](#dataset)
 
-# General Info
+# General info
 
 feTruth is a tool written in Python that can detect feature envy methods in a Java project.
 
@@ -97,3 +97,7 @@ The dataset we used to train feTruth includes 33,419 positive samples and 33,419
 &emsp;<font size=2>**target_cbmc**: coupling between the moved method and the target class</font>    
 &emsp;<font size=2>**target_mcmc**: message passing coupling between the moved method and the target class</font>    
 &emsp;<font size=2>**refactoring_id**: identity of the refactoring operation</font>
+
+The source code used by feTruth for data generation is available in the following links:
+
+- [data generation](dataset/data_generation)
