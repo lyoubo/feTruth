@@ -55,7 +55,7 @@ You can setup the requirements via any of the following commands:
 
    `cd feTruth/implementation/`
 
-   `python feTruth.py jsoup`
+   `python feTruth.py -a E:/jsoup`
 
 In this case, the identified feature envy methods are available at `jsoup.txt` in folder `output`:
 
